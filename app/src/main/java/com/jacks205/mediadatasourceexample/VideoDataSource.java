@@ -8,7 +8,7 @@ import java.net.URL;
 
 public class VideoDataSource extends MediaDataSource {
 
-    public static String VIDEO_URL = "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4";
+    public static String VIDEO_URL = "https://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear1/fileSequence0.ts";
     private volatile byte[] videoBuffer;
 
     private volatile VideoDownloadListener listener;
